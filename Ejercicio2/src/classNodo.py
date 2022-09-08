@@ -4,7 +4,6 @@ class Nodo:
 
     def __init__(self, val):
         self.__data = val
-        self.__next = None
 
     def getData(self):
         return self.__data
